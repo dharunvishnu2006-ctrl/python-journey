@@ -1,0 +1,12 @@
+marks = [85, 92, 78, 95, 88]
+marks.append(99)
+print(marks)
+marks.remove(78)
+print(marks)
+marks.sort()
+print(marks)
+marks.sort(reverse=True)
+print(marks)
+print("Highest:",max(marks))
+print("Lowset:",min(marks))
+print("Average:",sum(marks)/len(marks))
