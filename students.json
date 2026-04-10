@@ -1,22 +1,18 @@
-[
-  {
+{
+  "student1": {
     "name": "Dharun",
-    "marks": 95
+    "marks": {
+      "python": 95,
+      "maths": 88,
+      "english": 76
+    }
   },
-  {
+  "student2": {
     "name": "Ram",
-    "marks": 88
-  },
-  {
-    "name": "arun",
-    "marks": 78
-  },
-  {
-    "name": "muthu",
-    "marks": 82
-  },
-  {
-    "name": "saran",
-    "marks": 70
+    "marks": {
+      "python": 82,
+      "maths": 90,
+      "english": 85
+    }
   }
-]
+}
