@@ -1,0 +1,3 @@
+app started
+user logged in
+app closed
