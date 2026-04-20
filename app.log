@@ -1,0 +1,5 @@
+2026-04-20 13:13:28,844 - DEBUG - App started
+2026-04-20 13:13:28,844 - INFO - User logged in
+2026-04-20 13:13:28,844 - WARNING - Low memory!
+2026-04-20 13:13:28,844 - ERROR - File not found!
+2026-04-20 13:13:28,844 - CRITICAL - System crash!
