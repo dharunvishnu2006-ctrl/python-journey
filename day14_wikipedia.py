@@ -18,4 +18,4 @@ print(f"total rows: {len(rows)}")
 for row in rows[:5]:
     cells = row.find_all(["td","th"])
     cell_text = [cell.text.strip()for cell in cells]
-    print(cell_text)
+    print(cell_text)units = 250
