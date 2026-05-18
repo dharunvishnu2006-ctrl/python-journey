@@ -1,0 +1,18 @@
+import pandas as pd
+
+patients = {
+    "name": ["Ravi", "Priya", "Kumar", "Meena", "Raja"],
+    "age":  [65, 32, 55, 45, 70],
+    "bp":   [145, 118, 160, 125, 155]
+}
+
+df = pd.DataFrame(patients)
+
+# Normal filtering
+high_risk = df[(df["age"] > 50) & (df["bp"] > 130)]
+print("High Risk patients:")
+print(high_risk)
+
+# Same using query()
+print("\nUsing query():")
+print(df.query("age > 50 and bp > 130"))
