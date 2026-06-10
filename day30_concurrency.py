@@ -3,7 +3,7 @@ import time
 
 async def fetch_server_log(server_id):
     print(f"Fetching log from Server {server_id}...")
-    await asyncio.sleep(1)  # Simulate network wait
+    await asyncio.sleep(1)  
     print(f"Server {server_id} log received!")
     return f"Server {server_id} — No threats found!"
 
